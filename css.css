@@ -179,3 +179,10 @@ CSS MENU
 #produto_comprar input{background-color:#00DD00;border:0px;font-weight:bolder;border-radius:2px;padding:6px;}
 #produto_comprar{margin-top:4px;}
 #formularioContato{padding:}
+
+
+#Menu ul {
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
