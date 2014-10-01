@@ -1,0 +1,181 @@
+@font-face
+{
+font-family: Solomon;
+src: url(/design_fonts/Solomon.ttf);
+}	
+@font-face {
+    font-family: 'AvantGardeExtLitITCTTRegular';
+    src: url('/design_fonts/avantgardelight.eot');
+    src: url('/design_fonts/avantgardelight.eot') format('embedded-opentype'),
+         url('/design_fonts/avantgardelight.woff') format('woff'),
+         url('/design_fonts/avantgardelight.ttf') format('truetype'),
+         url('/design_fonts/avantgardelight.svg#AvantGardeExtLitITCTTRegular') format('svg');
+}
+.Colecoes_Camiseta nome{
+	text-align:center;
+}
+h1{text-align:center;}
+*{
+	margin:0px;
+	padding:0px;
+	font-family:AvantGardeExtLitITCTTRegular!important;
+}
+body{
+	background-attachment:fixed;
+	background-color:black;
+	background-image:url("/_usertemp/dirty/image/images/bg2.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 200%;
+	color:white;
+	overflow-y:scroll;
+
+}
+#login_lv h1 a{display:none;}
+#login_lv h1,.mod_loja_titulo{margin-left:90px!important;font-size:28px;margin-top:20px;} 
+.mod_loja_titulo a{display:none;}
+
+#conteudo form table{margin-left:90px;width:80%!important;}
+#Banner{
+	height:400px;
+	margin:auto;
+	width:930px;
+}
+#container_gallery h2{
+	display:none;
+}
+#conteudo{
+	padding-top:10px;
+	padding-bottom:65px;
+}
+#conteudo h1{
+	margin-top:35px;
+	margin-left:15px;
+}
+#conteudo p{
+	margin-top:15px;
+	margin-left:15px;
+}
+#Corpo{
+	/*Open Configuracoes de Fundo Preto */
+	width:1000px;
+	background-color:black;
+	margin:auto;
+	/*box-shadow: 10px 0px 10px #888888,10px 0px 10px #888888 inset;*/
+	/*Close Configuracoes de Fundo Preto */
+}
+#FOOTER{
+	display:none;
+}
+#Menu{
+	/*Open Configuracoes de Fundo Preto */
+	width:1000px;
+	background-color:black;
+	margin:auto;
+	/*box-shadow: 10px 0px 10px #888888,10px 0px 10px #888888 inset;*/
+	/*Close Configuracoes de Fundo Preto */
+}
+#Menu li{
+	list-style-type:none;
+	float:left;
+	padding-left:7px;
+	padding-right:7px;
+	/*padding-left:10px;
+	padding-right:10px;*/
+	border-right:1px solid #999;
+}
+
+#Menu li:last-child{
+	border-right:0;
+}
+#Menu li a{	
+	color:#999;
+	text-decoration:none;
+}
+#Menu ul{
+	margin:auto;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+#Logo{
+	text-align:center;
+	padding-top:20px;
+
+}
+#Logo img{
+	width:167px;
+}
+.FundoPreto{
+	/*Open Configuracoes de Fundo Preto */
+	width:1000px;
+	background-color:black;
+	margin:auto;
+	/*box-shadow: 10px 0px 10px #888888,10px 0px 10px #888888 inset;*/
+	/*Close Configuracoes de Fundo Preto */
+}
+.ProdutoDaColecao{margin-right:10px;margin-bottom:15px;}
+.ProdutoDaColecao .nome{font-size:18px;font-weight:bold;}
+.ProdutoDaColecao .preco{float:left;margin-left:3px;}
+.ProdutoDaColecao .botao{float:right;margin-right:3px;padding:1px;font-weight:bold;background-color:#7B7622;border-radius:3px;font-size:14px;}
+
+#login_lv h1{text-align:left;}
+#login_lv a{font-weight:bold;border:1px solid #666;background-color:#333;padding:0px;border-radius:3px;}
+#CaminhoDePao{margin-margin-top:10px;}
+
+#conteudo #formularioContato {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 90px;
+    text-align: center;
+}
+#conteudo input,#conteudo select{font-weight:bold;font-size:18px;}
+.mod_loja_box_verde{background-color:#333}
+
+.produtos_meio_subcategoria{background-color:#333!important;}
+
+.mod_loja_list-simple-line-table:hover {
+	background-color:#f6f6f6;
+}
+body{background-color:#000!important}
+.produtos_topo_subcategoria_baixo_esquerda,.produtos_topo_subcategoria_baixo_centro,.produtos_topo_subcategoria_baixo_direita{display:none!important;}
+.produtos_meio_subcategoria{border:0px!important}
+.produtos_topo_subcategoria_direita,.produtos_topo_subcategoria_esquerda{background-image: url("http://dirty.ventotecnologia.com.br/admin/modulos/mod_loja/images/fundo-redondo-azul-centro.png")!important;}
+#mod_loja_menu_usuario table{border-radius:8px;}
+#mod_loja_menu_usuario{margin-left:10px;}
+.mod_loja_wrap div{width:720px!important;}
+#mod_loja_menu_usuario{width:200px!important;}
+.newSpan{padding:2px;border-radius:2px;background-color:#22BB22;color:white;}
+/************************************
+CSS MENU
+************************************/
+/*
+	#sf-menu{position:absolute;top:312px;left:50%;margin-left:-417px;}
+#sf-menu li a:hover{color:#fff;-moz-box-shadow:0 3px 10px 0 #CCC;-webkit-box-shadow:0 3px 10px 0 #ccc;text-shadow:0px 0px 5px #fff;}
+*/
+#sf-menu{width:745px;margin:auto;}
+#sf-menu li:hover{background-color:#DDD;}
+#sf-menu li:hover a{color:black;}
+#sf-menu ul li{background-color:#A6A6A6;}
+#sf-menu ul li a{color:333;}
+
+
+
+#sf-menu li{float:left;}
+#sf-menu li{width:auto;list-style:none; }
+#sf-menu ul{display:none;}
+#sf-menu li{position:relative;float:left;border-right:1px solid #c0c0c0;padding-right:12px;padding-left:12px;}
+#sf-menu li a{color:#333; text-decoration:none; padding:3px 3px; display:block;font-weight:bold;}
+#sf-menu li  ul{position:absolute;top:10px;left:0;display:none;z-index:500000;}	
+#sf-menu li:hover ul, #sf-menu li.hover ul{display:block;}
+#sf-menu li:hover ul a,#sf-menu li.hover ul{color:black;}
+#sf-menu ul li:hover{background-color:#DDD;}
+#sf-menu ul li:hover a{color:black;}
+#sf-menu li ul li{display:block;width:auto;white-space:nowrap;}
+#sf-menu li ul li:nth-child(1){margin-top:12px;}
+#sf-menu li ul li{margin-left:-1px;width:160px;padding:3px;width:auto;width:235px;margin-bottom:1px;}
+#sf-menu li{border-radius: 2px 2px 2px 2px;color: white;text-align:center;}
+#sf-menu li a{color: white;}
+#sf-menu li ul li ul{margin-left:220px;display:none!important;margin-top:-35px;}
+#sf-menu li ul li:hover ul, #sf-menu ul li.hover ul{display:block!important;}
+#produto_comprar input{background-color:#00DD00;border:0px;font-weight:bolder;border-radius:2px;padding:6px;}
+#produto_comprar{margin-top:4px;}
+#formularioContato{padding:}
